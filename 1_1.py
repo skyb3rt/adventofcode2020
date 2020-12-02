@@ -3,11 +3,8 @@ listen = [1778,1845,1813,1889,1939,1635,1443,796,1799,938,1488,1922,1909,1258,16
 def finn_to(verdi):
     for x in range(0,len(listen)):
         tall= verdi - listen[x]
-        if tall in listen:  
+        if tall in listen[x:]:  
             resultat = tall*listen[x]
-            print (tall,"*",listen[x],"=",resultat)
-
-
-
+            print (f"{tall}*{listen[x]}={resultat}")
 
 finn_to(2020)

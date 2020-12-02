@@ -8,6 +8,6 @@ def finn_tre(verdi):
             tall2=tall-listen[j]
             if tall2 in listen:  
                 list2.append(tall2)
-    print (list2)
+    print (f"{list2[0]}*{list2[1]}*{list2[2]}={list2[0]*list2[1]*list2[2]}")
 
 finn_tre(2020)
