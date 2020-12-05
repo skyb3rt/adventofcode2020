@@ -26,7 +26,7 @@ class AdvendtOfCode {
         for (int i : l){
             int num= verdi-i;
             if (l.contains(num)){
-                return(num* i); // Display the strng.
+                return(num* i); 
             }
         }
         return 0;
