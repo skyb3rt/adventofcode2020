@@ -6,6 +6,7 @@ def read_file():
 def finn_tre(verdi,listen):
     for i in range(0,len(listen)):
         tall=verdi-listen[i]
+
         for j in range(i+1,len(listen)):
             tall2 = listen[j]
             tall3 = tall-listen[j]

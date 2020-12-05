@@ -1,7 +1,7 @@
 import csv
 
 count = 0
-with open ("2.csv") as csv_file:
+with open ("2.txt") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=' ')
     for row in csv_reader:
         password = row[2].strip()
