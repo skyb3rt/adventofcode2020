@@ -1,11 +1,9 @@
-
-
 def read_file():
     with open ("9.txt", 'r' ) as f:
         return [int(i) for i in f.readlines()]
 
 
-def find_nr(l,total):
+def find_sum(l,total):
     for x in range (0,len(l)):
         sum_l=[]
         for j in range(x,len(l)):
@@ -15,4 +13,4 @@ def find_nr(l,total):
             if sum(sum_l) > total:
                 break        
 
-print(find_nr(read_file(),15353384))
+print(find_sum(read_file(),15353384))
